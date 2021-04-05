@@ -1,0 +1,30 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 115px;
+    overflow: auto;
+
+
+    &_feature{
+        width: 100%;
+    }
+
+    &_tiles {
+        @media(max-width: 1023px) {
+            width: 100%;
+        }
+        width: 50%;
+        @media(min-width: 1024px)
+        {
+            &--right{
+                padding-right: 7px;
+            }
+            &--left {
+                padding-left: 7px;
+            }
+        }
+
+    }
+}

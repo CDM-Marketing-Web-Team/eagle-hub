@@ -1,0 +1,87 @@
+.tile {
+    margin-top: 15px;
+    position: relative;
+
+    &:hover .tile_overlay {
+        opacity: 0.9;
+    }
+
+    &:hover .tile_description {
+        opacity: 1;
+    }
+
+    &_image-wrapper {
+        overflow: hidden;
+    }
+    
+    &_image {
+        width: 100%;
+        
+    }
+
+    &_description {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Titillium Web', sans-serif;
+        @media(max-width: 767px){
+            width: 100%;
+            padding: 30px;
+            background-color: #000;
+            color: #fff;
+            font-size: 18px;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            justify-content: center;
+            &_text {
+                padding-top: 20px;
+            }
+        }
+        @media(min-width: 768px) {
+            opacity: 0;
+            transition: opacity .25s ease-in-out;
+           -moz-transition: opacity .25s ease-in-out;
+           -webkit-transition: opacity .25s ease-in-out;
+            background-color: transparent;
+            width: 90%;
+            z-index: 1002;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            &_text {
+                padding-bottom: 20px;
+            }
+        }
+
+        @media(min-width: 1200px) {
+            width: 80%;
+        }
+
+    }
+
+    &_overlay {
+        transition: opacity .25s ease-in-out;
+       -moz-transition: opacity .25s ease-in-out;
+       -webkit-transition: opacity .25s ease-in-out;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        position: absolute;
+        top:0;
+        left: 0;
+        background-color:rgba(58,8,7,0.8);
+        opacity: 0;
+
+    }
+    &_texture {
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background-image: url('../../assets/images/texture_white.svg');
+        opacity: 0.1;
+    }
+}
+

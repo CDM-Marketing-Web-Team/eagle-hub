@@ -1,0 +1,21 @@
+.dropdown {
+    @media(min-width: 992px){
+       top: 50%;
+        transform: translateY(-50%); 
+    }
+    
+}
+
+.dropdown-menu  {
+    background-color: #6c757d !important;
+    border: 1px solid #fff;
+    min-width: unset !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+    width: unset !important;
+    &:hover{
+        color: #000!important;
+    }
+}

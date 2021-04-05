@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Formula1DisplayBold';
+  src: url('../fonts/formula1-bold/Formula1-Bold.woff2') format('woff2'),  
+       url('../fonts/formula1-bold/Formula1-Bold.woff') format('woff'), 
+       url('../fonts/formula1-bold/Formula1-Bold.ttf')  format('truetype'),
+       url('../fonts/formula1-bold/Formula1-Bold.svg#svgFontName') format('svg');
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/bg_tile.jpg') repeat;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#root {
+  max-width: 2200px;
+  margin: auto;
+  height: 100%;
+}
+
+.container-fluid {
+  @media(min-width:2201px)
+  {
+    padding-left:0 !important;
+    padding-right: 0 !important;
+  }
+  position: relative;
+}
