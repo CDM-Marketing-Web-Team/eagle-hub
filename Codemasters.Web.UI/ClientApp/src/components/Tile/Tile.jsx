@@ -1,6 +1,7 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import Button from '../Button/Button';
+import data from './data';
 
 import './Tile.scss';
 
@@ -29,8 +30,12 @@ const resolveContent = (content) => {
 };
 
 export default function Tile(props) {
-  const images = props.tile.images;
-  console.log(props);
+  // const images = props.tile.images;
+  const images = data;
+  // const images = data;
+  console.log(props.tile);
+  console.log(props.tile.data);
+  console.log(data);
 
   return (
     <div className="tile">
@@ -75,7 +80,7 @@ export default function Tile(props) {
         <div className="image-wrapper">
           <img
             className="tile_image"
-            src="../../assets/images/image.png"
+            src={images[2].url}
             alt={images[2].description}
           />
         </div>
@@ -84,7 +89,7 @@ export default function Tile(props) {
         <div className="image-wrapper">
           <img
             className="tile_image"
-            src="../../assets/images/image.png"
+            src={images[1].url}
             alt={images[2].description}
           />
         </div>
@@ -94,7 +99,7 @@ export default function Tile(props) {
           {props.feature && (
             <img
               className="tile_image"
-              src="../../assets/images/image.png"
+              src={images[0].url}
               alt={images[0].description}
             />
           )}
