@@ -26,11 +26,11 @@ export default class Footer extends Component {
                             <Col lg="6" sm="12" className="footer_copyright">
                                 {this.props.copyright.map((item, index) => <div key={`copyright_${index}`} dangerouslySetInnerHTML={{ __html: item }} />)}
                             </Col>
-                            <div lg="3"></div>
-                            <Col lg="1" sm="12" className="footer_language">
+                            {/* <Col lg="1" sm="12" className="footer_language">
+                                
+                            </Col> */}
+                            <Col lg="3" sm="12" className="footer_rating">
                                 <LanguageSelector countries={this.props.supportedCountries} country={this.props.country} setCountry={this.props.setCountry}/>
-                            </Col>
-                            <Col lg="1" sm="12" className="footer_rating">
                                 <Rating ratings={this.props.supportedRatings} country={this.props.country} />
                             </Col>
                             
