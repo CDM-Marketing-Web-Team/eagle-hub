@@ -33,9 +33,9 @@ export default function Tile(props) {
   const images = props.tile.images;
   // const images = data.tile.images;
   // const images = data;
-  console.log(images[1]);
-  const newArr = props.tile.images.unshift(data);
-  console.log('newArr', newArr);
+  // console.log(images[1]);
+  // const newArr = props.tile.images.unshift(data);
+  // console.log('newArr', newArr);
 
   // console.log(props.tile.images);
   // console.log(data);

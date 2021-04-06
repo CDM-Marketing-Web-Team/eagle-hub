@@ -1,31 +1,43 @@
 @font-face {
   font-family: 'Formula1DisplayBold';
-  src: url('../fonts/formula1-bold/Formula1-Bold.woff2') format('woff2'),  
-       url('../fonts/formula1-bold/Formula1-Bold.woff') format('woff'), 
-       url('../fonts/formula1-bold/Formula1-Bold.ttf')  format('truetype'),
-       url('../fonts/formula1-bold/Formula1-Bold.svg#svgFontName') format('svg');
+  src: url('../fonts/formula1-bold/Formula1-Bold.woff2') format('woff2'),
+    url('../fonts/formula1-bold/Formula1-Bold.woff') format('woff'),
+    url('../fonts/formula1-bold/Formula1-Bold.ttf') format('truetype'),
+    url('../fonts/formula1-bold/Formula1-Bold.svg#svgFontName') format('svg');
 }
 
-
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background: url('../images/bg_tile.jpg') repeat;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  // min-height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  background: url('../images//top-left-bg.svg'),
+    url('../images//bottom-right-bg.svg'),
+    radial-gradient(
+      circle,
+      rgba(128, 128, 128, 0.9) 0%,
+      rgba(194, 194, 194, 0.1) 100%
+    );
+  background-position: top left, bottom 100px right;
+  background-color: rgba(194, 194, 194, 0.1);
+  background-repeat: no-repeat, no-repeat, repeat;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #root {
   max-width: 2200px;
   margin: auto;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container-fluid {
-  @media(min-width:2201px)
-  {
-    padding-left:0 !important;
+  @media (min-width: 2201px) {
+    padding-left: 0 !important;
     padding-right: 0 !important;
   }
   position: relative;
