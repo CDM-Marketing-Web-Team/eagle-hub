@@ -31,56 +31,9 @@ const resolveContent = (content) => {
 
 export default function Tile(props) {
   const images = props.tile.images;
-  // const images = data.tile.images;
-  // const images = data;
-  // console.log(images[1]);
-  // const newArr = props.tile.images.unshift(data);
-  // console.log('newArr', newArr);
-
-  // console.log(props.tile.images);
-  // console.log(data);
-  // const newImages = images.unshift(data);
-  // console.log(newImages);
 
   return (
     <div className="tile">
-      {/* <MediaQuery maxWidth={767}>
-        <div className="image-wrapper">
-          <img
-            className="tile_image"
-            src={images[2].url}
-            alt={images[2].description}
-          />
-        </div>
-      </MediaQuery>
-      <MediaQuery minWidth={768} maxWidth={1199}>
-        <div className="image-wrapper">
-          <img
-            className="tile_image"
-            src={images[1].url}
-            alt={images[2].description}
-          />
-        </div>
-      </MediaQuery>
-      <MediaQuery minWidth={1200}>
-        <div className="image-wrapper">
-          {props.feature && (
-            <img
-              className="tile_image"
-              src={images[0].url}
-              alt={images[0].description}
-            />
-          )}
-          {!props.feature && (
-            <img
-              className="tile_image"
-              src={images[1].url}
-              alt={images[1].description}
-            />
-          )}
-        </div>
-      </MediaQuery> */}
-
       <MediaQuery maxWidth={767}>
         <div className="image-wrapper">
           <img
