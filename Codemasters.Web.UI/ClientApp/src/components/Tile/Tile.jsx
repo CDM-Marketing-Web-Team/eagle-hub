@@ -30,7 +30,7 @@ const resolveContent = (content) => {
 
 export default function Tile(props) {
   const images = props.tile.images;
-  console.log(props.tile.images);
+  // console.log(props.tile.images);
 
   return (
     <div className="tile">
