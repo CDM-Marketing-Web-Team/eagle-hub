@@ -50,23 +50,26 @@ $footer-background: #fff;
   }
 
   .codemasters-logo {
-    width: 100px;
+    height: 63px;
     margin-right: 20px;
   }
 
   .ea-sports-logo {
-    width: 65px;
+    height: 63px;
   }
 
   @media (min-width: 992px) {
     .col-sm-12 {
       padding-top: 0px;
     }
+    // .footer_logo {
+    //   display: flex;
+    //   align-items: center;
+    // }
     .footer_rating {
       display: flex;
       align-items: center;
       justify-content: center;
-      // padding-right: 1rem;
       padding-left: 4rem;
     }
     .rating {
