@@ -27,11 +27,9 @@ $footer-background: #fff;
   }
 
   &_logo {
-    @media (min-width: 992px) {
-      img {
-        transform: translateY(12px);
-      }
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &_language {
@@ -40,12 +38,13 @@ $footer-background: #fff;
 
   &_copyright {
     font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     p {
       text-transform: uppercase;
       text-align: center;
-      @media (min-width: 992px) {
-        transform: translateY(29px);
-      }
+      margin-bottom: 0;
     }
   }
 
