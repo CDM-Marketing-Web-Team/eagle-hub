@@ -82,10 +82,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url('../../assets/images/diamond-texture-top.png'),
-      url('../../assets/images/diamond-texture-bottom.png'),
+    background: url('../../assets/images/diamond-bg.svg'),
       radial-gradient(circle, rgba(35, 88, 119, 1) 0%, rgba(10, 30, 86, 1) 100%);
-    background-position: top right, bottom left;
+    background-size: cover, cover;
     background-repeat: no-repeat, no-repeat;
 
     opacity: 0;
