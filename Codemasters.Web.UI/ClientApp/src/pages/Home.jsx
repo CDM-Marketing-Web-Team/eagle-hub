@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import axios from 'axios';
 import Tile from '../components/Tile/Tile';
-import data from '../components/Tile/data';
 
 import '../assets/sass/home.scss';
 
@@ -21,13 +20,6 @@ export default class Home extends Component {
         data: response.data,
       })
     );
-  }
-
-  componentDidUpdate() {
-    console.log(this.state.data.tiles.images);
-
-    this.state.data.tiles.unshift(data);
-    console.log(this.state.data.tiles);
   }
 
   render() {

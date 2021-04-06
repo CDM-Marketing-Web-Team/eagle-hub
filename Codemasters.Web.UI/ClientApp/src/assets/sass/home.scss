@@ -5,6 +5,7 @@
   flex-direction: row;
   padding-bottom: 115px;
   overflow: auto;
+  justify-content: space-between;
 
   &_feature {
     width: 100%;
@@ -15,13 +16,5 @@
       width: 100%;
     }
     width: 33%;
-    @media (min-width: 1024px) {
-      &--right {
-        padding-right: 7px;
-      }
-      &--left {
-        padding-left: 7px;
-      }
-    }
   }
 }

@@ -17,12 +17,12 @@ export default class Footer extends Component {
             <Row>
               <Col lg="3" sm="12" className="footer_logo">
                 <img
-                  class="codemasters-logo"
+                  className="codemasters-logo"
                   src={codemastersLogo}
                   alt="cdm-logo"
                 />
                 <img
-                  class="ea-sports-logo"
+                  className="ea-sports-logo"
                   src={eaSportsLogo}
                   alt="ea-sports-logo"
                 />

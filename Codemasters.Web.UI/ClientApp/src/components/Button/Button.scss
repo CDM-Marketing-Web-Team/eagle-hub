@@ -1,6 +1,6 @@
 .button {
   border: 5px solid;
-  line-height: 35px;
+  line-height: 50px;
   text-transform: uppercase;
   text-align: center;
   font-size: 15px;
@@ -23,9 +23,10 @@
     color: #fff;
   }
 
-  @media (min-width: 1400px) {
-    line-height: 50px;
+  @media (min-width: 1024px) {
+    line-height: 30px;
   }
+
   &:hover {
     cursor: pointer;
   }
