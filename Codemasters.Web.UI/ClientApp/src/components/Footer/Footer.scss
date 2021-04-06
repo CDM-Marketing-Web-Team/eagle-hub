@@ -2,7 +2,7 @@ $footer-background: #fff;
 
 .footer {
   background-color: $footer-background;
-  width: 100%;
+  width: 100vw;
   position: relative;
   bottom: 0;
   color: #000;
@@ -16,10 +16,8 @@ $footer-background: #fff;
   .row {
     background-color: $footer-background;
     text-align: center;
-    @media (min-width: 2201px) {
-      margin-right: 0 !important;
-      margin-left: 0 !important;
-    }
+    margin: 0 auto;
+    max-width: 2200px;
   }
 
   .col-sm-12 {
@@ -55,6 +53,7 @@ $footer-background: #fff;
 
   .ea-sports-logo {
     width: 65px;
+    margin-top: 2px;
   }
 
   @media (min-width: 992px) {

@@ -1,6 +1,7 @@
 .tile {
   margin-top: 15px;
   position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
 
   &:hover .tile_overlay {
     opacity: 0.9;
