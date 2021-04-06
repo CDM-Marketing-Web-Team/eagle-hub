@@ -26,4 +26,7 @@
   @media (min-width: 1400px) {
     line-height: 50px;
   }
+  &:hover {
+    cursor: pointer;
+  }
 }

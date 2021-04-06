@@ -15,9 +15,6 @@ export default class Footer extends Component {
         <div className="footer">
           <Container fluid={true}>
             <Row>
-              {/* <Col lg="3" sm="12" className="footer_logo">
-                                {this.props.logo.map((item, index) => <img key={`logo_${index}`} src={item.logo} alt={item.description} />)}
-                            </Col> */}
               <Col lg="3" sm="12" className="footer_logo">
                 <img
                   class="codemasters-logo"
@@ -38,9 +35,6 @@ export default class Footer extends Component {
                   />
                 ))}
               </Col>
-              {/* <Col lg="1" sm="12" className="footer_language">
-                                
-                            </Col> */}
               <Col lg="3" sm="12" className="footer_rating">
                 <LanguageSelector
                   countries={this.props.supportedCountries}
