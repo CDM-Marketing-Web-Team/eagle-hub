@@ -42,8 +42,10 @@
     cursor: pointer;
     background-color: #fff;
     color: #000;
-    outline: 1px solid #fff;
-    outline-offset: 4px;
+    @media (min-width: 768px) {
+      outline: 1px solid #fff;
+      outline-offset: 4px;
+    }
   }
 }
 
