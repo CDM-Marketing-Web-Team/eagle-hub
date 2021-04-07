@@ -13,7 +13,8 @@
   -webkit-transition: background-color 0.25s ease-in-out;
   font-family: Formula1DisplayBold;
   padding: 0 10px;
-  background-color: #b1f828;
+  background-color: #000;
+  color: #fff;
   border: 1px solid transparent;
   outline: 1px solid transparent;
   outline-offset: 4px;
@@ -23,8 +24,6 @@
   transition: outline 0.25s ease-in-out;
   -moz-transition: outline 0.25s ease-in-out;
   -webkit-transition: outline 0.25s ease-in-out;
-
-  color: black;
 
   &--ligth {
     border-color: #fff;
@@ -41,8 +40,9 @@
 
   &:hover {
     cursor: pointer;
-    background-color: white;
-    outline: 1px solid white;
+    background-color: #fff;
+    color: #000;
+    outline: 1px solid #fff;
     outline-offset: 4px;
   }
 }
