@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="228.754" height="204.203" viewBox="0 0 228.754 204.203">
-  <g id="Group_355" data-name="Group 355" transform="translate(1.065 1.063)" opacity="0.5">
-    <path id="Path_264" data-name="Path 264" d="M5761.733,1747.524l47.59-48.019v13.972l-33.618,34.047Z" transform="translate(-5583.27 -1546.043)" fill="#949693"/>
-    <line id="Line_195" data-name="Line 195" y1="8.7" x2="8.842" transform="translate(217.444 193.014)" fill="none" stroke="#949693" stroke-width="4"/>
-    <line id="Line_196" data-name="Line 196" y1="68.552" x2="68.695" transform="translate(157.591 133.161)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_199" data-name="Line 199" y1="116.11" x2="116.253" transform="translate(110.034 84.908)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_200" data-name="Line 200" y1="61.709" x2="61.709" transform="translate(84.515 139.309)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_202" data-name="Line 202" y1="61.709" x2="61.709" transform="translate(56.444 139.309)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_204" data-name="Line 204" y1="40.83" x2="40.973" transform="translate(27.446 160.188)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_205" data-name="Line 205" y1="30.622" x2="30.372" transform="translate(0 170.395)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_216" data-name="Line 216" y1="65.073" x2="65.421" transform="translate(160.866)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_201" data-name="Line 201" y1="47.905" x2="48.048" transform="translate(178.238 58.461)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_203" data-name="Line 203" y1="75.744" x2="76.119" transform="translate(150.167 30.622)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_197" data-name="Line 197" y1="54.354" x2="54.498" transform="translate(171.788 110.426)" fill="none" stroke="#949693" stroke-width="3"/>
-    <line id="Line_198" data-name="Line 198" y1="18.095" x2="18.095" transform="translate(135.552 183.386)" fill="none" stroke="#949693" stroke-width="3"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="327.973" height="301.777" viewBox="0 0 327.973 301.777"><defs><style>.a{opacity:0.5;}.b{fill:#949693;}.c,.d{fill:none;stroke:#949693;}.c{stroke-width:4px;}.d{stroke-width:3px;}</style></defs><g class="a" transform="translate(100.276 0.063)"><path class="b" d="M5661.322,1847.756l148-148.251v13.972l-134.435,134.279Z" transform="translate(-5583.27 -1546.043)"/><line class="c" y1="107.2" x2="107.499" transform="translate(118.786 193.014)"/><line class="d" y1="167.052" x2="167.5" transform="translate(58.786 133.161)"/><path class="d" d="M-100,215.556,116.253,0" transform="translate(110.034 84.908)"/><line class="d" y1="160.905" x2="160.437" transform="translate(-15.214 139.309)"/><line class="d" y1="160.905" x2="161.367" transform="translate(-43.214 139.309)"/><line class="d" y1="140.026" x2="140.632" transform="translate(-73.214 160.188)"/><line class="d" y1="129.818" x2="129.586" transform="translate(-99.214 170.395)"/><line class="d" y1="65.073" x2="65.421" transform="translate(160.866 1)"/><line class="d" y1="47.905" x2="48.048" transform="translate(178.238 58.461)"/><line class="d" y1="75.744" x2="76.119" transform="translate(150.167 30.622)"/><line class="d" y1="54.354" x2="54.498" transform="translate(171.788 110.426)"/><line class="d" y1="116.827" x2="116.861" transform="translate(36.786 183.386)"/></g></svg>

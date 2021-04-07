@@ -26,7 +26,7 @@ export default class Home extends Component {
     return (
       <React.Fragment>
         <Helmet>
-          <title>F1 Hub</title>
+          <title>F1® Hub</title>
           {this.state.ready && (
             <meta name="keywords" content={this.state.data.metadataKeywords} />
           )}

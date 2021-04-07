@@ -16,16 +16,20 @@ export default class Footer extends Component {
           <Container fluid={true}>
             <Row>
               <Col lg="3" sm="12" className="footer_logo">
-                <img
-                  className="codemasters-logo"
-                  src={codemastersLogo}
-                  alt="cdm-logo"
-                />
-                <img
-                  className="ea-sports-logo"
-                  src={eaSportsLogo}
-                  alt="ea-sports-logo"
-                />
+                <a href="https://www.codemasters.com/">
+                  <img
+                    className="codemasters-logo"
+                    src={codemastersLogo}
+                    alt="cdm-logo"
+                  />
+                </a>
+                <a href="https://www.ea.com/en-gb">
+                  <img
+                    className="ea-sports-logo"
+                    src={eaSportsLogo}
+                    alt="ea-sports-logo"
+                  />
+                </a>
               </Col>
               <Col lg="6" sm="12" className="footer_copyright">
                 {this.props.copyright.map((item, index) => (
