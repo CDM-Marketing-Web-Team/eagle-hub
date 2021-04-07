@@ -46,3 +46,14 @@
     outline-offset: 4px;
   }
 }
+
+// Only main feature button should have larger button during this media query
+.home_feature {
+  .tile {
+    .button {
+      @media (min-width: 1024px) {
+        line-height: 50px;
+      }
+    }
+  }
+}
