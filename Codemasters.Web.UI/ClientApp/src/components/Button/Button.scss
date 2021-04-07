@@ -14,7 +14,15 @@
   font-family: Formula1DisplayBold;
   padding: 0 10px;
   background-color: #b1f828;
-  border: 2px solid #b1f828;
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: 4px;
+  transition: background-color 0.25s ease-in-out;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: outline 0.25s ease-in-out;
+  -moz-transition: outline 0.25s ease-in-out;
+  -webkit-transition: outline 0.25s ease-in-out;
 
   color: black;
 
@@ -33,8 +41,8 @@
 
   &:hover {
     cursor: pointer;
-    border: 2px solid white;
-    background: white;
-    transition: 1s ease;
+    background-color: white;
+    outline: 1px solid white;
+    outline-offset: 4px;
   }
 }

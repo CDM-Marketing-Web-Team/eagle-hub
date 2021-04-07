@@ -9,6 +9,8 @@ import eaSportsLogo from '../../assets/images/ea-sports-logo.svg';
 import './Footer.scss';
 
 export default class Footer extends Component {
+  date = new Date();
+
   render() {
     return (
       <React.Fragment>
@@ -23,7 +25,7 @@ export default class Footer extends Component {
                     alt="cdm-logo"
                   />
                 </a>
-                <a href="https://www.ea.com/en-gb">
+                <a href="https://www.ea.com/sports">
                   <img
                     className="ea-sports-logo"
                     src={eaSportsLogo}
