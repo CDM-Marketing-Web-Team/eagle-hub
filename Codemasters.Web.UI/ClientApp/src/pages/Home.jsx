@@ -27,6 +27,7 @@ export default class Home extends Component {
       <React.Fragment>
         <Helmet>
           <title>F1® Hub</title>
+
           {this.state.ready && (
             <meta name="keywords" content={this.state.data.metadataKeywords} />
           )}
@@ -39,6 +40,27 @@ export default class Home extends Component {
               content={this.state.data.metadataDescription}
             />
           )}
+          {/* For Seo OG Image */}
+          {this.state.ready && (
+            <meta property="og:title" content={this.state.data.metadataTitle} />
+          )}
+          {this.state.ready && (
+            <meta
+              property="og:description"
+              content={this.state.data.metadataDescription}
+            />
+          )}
+          {this.state.ready && (
+            <meta
+              property="og:image"
+              content={this.state.data.tiles[0].images[0].url}
+            />
+          )}
+          {this.state.ready && (
+            <meta property="og:url" content="https://www.formula1game.com/" />
+          )}
+          {this.state.ready && <meta property="og:type" content="website" />}
+          {/* {this.state.ready && console.log(this.state.data)} */}
         </Helmet>
         <div className="home">
           {this.state.ready &&
